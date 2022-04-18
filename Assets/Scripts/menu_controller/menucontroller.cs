@@ -9,4 +9,7 @@ public class menucontroller : MonoBehaviour
    public void PlayGame(){
        SceneManager.LoadScene(0);
    }
+   public void QuiteGame(){
+       Application.Quit();
+   }
 }
